@@ -2,6 +2,7 @@ Zorvyn Finance Dashboard
 A clean, interactive, and responsive finance dashboard built with React and Vite. This application allows users to track their financial activity, view spending insights, and manage transactions seamlessly.
 
 Features:-
+Scroll-Bar: I worked even on Scroll-bar animation and color.
 Overview & Insights: Visualize financial data with dynamic charts (Balance Area Chart, Spend Analysis Pie Chart, and Category Trend Stacked Bar Chart) using Recharts.
 Transaction Management: View, add, and delete transactions. Includes category-based search and filtering.
 Role-Based UI (RBAC) Simulation:  Toggle between 'Admin' (can add/delete transactions) and 'Viewer' (read-only access).
