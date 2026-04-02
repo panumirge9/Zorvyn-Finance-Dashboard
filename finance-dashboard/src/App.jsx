@@ -113,7 +113,6 @@ export default function App() {
     date: new Date().toISOString().split('T')[0]
   });
 
-  // Theme State
   const [isDarkMode, setIsDarkMode] = useState(() => {
     const savedTheme = localStorage.getItem('theme');
     return savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches);
@@ -369,15 +368,15 @@ export default function App() {
                     </div>
                   </div>
                   
-                  {/* --- FIXED AI INSIGHT BOX --- */}
+            
                   <div className="mt-6 bg-blue-50 dark:bg-[#1e293b]/50 border border-blue-200 dark:border-slate-700/50 p-5 rounded-2xl relative overflow-hidden group transition">
                     
-                    {/* The Sparkles background icon - repositioned and set to pointer-events-none */}
+              
                     <div className="absolute top-1/2 -translate-y-1/2 -right-4 opacity-[0.15] dark:opacity-10 transition-transform duration-500 transform group-hover:rotate-12 pointer-events-none">
                       <Sparkles size={100} className="text-blue-500 dark:text-blue-400" />
                     </div>
                     
-                    {/* The Text Container - forced right padding (pr-20) to prevent text from crossing into the icon area */}
+              
                     <div className="relative z-10 pr-20">
                       <span className="font-bold text-blue-700 dark:text-blue-400 flex items-center gap-1.5 mb-1.5 text-sm">
                         <Sparkles size={16} /> AI Insight
@@ -387,7 +386,7 @@ export default function App() {
                       </p>
                     </div>
                   </div>
-                  {/* --- END FIXED AI INSIGHT BOX --- */}
+          
 
                 </motion.div>
               </div>

@@ -1,17 +1,16 @@
 @import "tailwindcss";
 
-/* 1. Tell Tailwind to use the .dark class for night mode instead of OS settings */
 @custom-variant dark (&:where(.dark, .dark *));
 
-/* 2. Remove hardcoded colors so React can control the background */
+
 body {
   margin: 0;
   padding: 0;
-  /* Smoothly transition the global background */
+
   @apply antialiased transition-colors duration-300;
 }
 
-/* 3. Custom scrollbar that adapts to Light AND Dark mode automatically */
+
 ::-webkit-scrollbar {
   width: 14px;
 }
@@ -21,14 +20,14 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  /* Light mode scrollbar */
+
   background-color: #cbd5e1; 
   border-radius: 50%;
   border: 4px solid #f9fafb; 
 }
 
 .dark ::-webkit-scrollbar-thumb {
-  /* Dark mode scrollbar */
+
   background-color: #3b82f6; 
   border: 4px solid #050510; 
 }
