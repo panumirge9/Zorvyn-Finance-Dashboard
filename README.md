@@ -2,9 +2,6 @@
 
 A clean, interactive, and responsive personal finance dashboard built with React and Vite. This application allows users to track their financial activity, view dynamic spending insights, and manage transactions seamlessly.
 
-![Zorvyn Finance Dashboard Preview](https://via.placeholder.com/1000x500.png?text=Zorvyn+Finance+Dashboard)
-*(Note: You can replace the placeholder image link above with an actual screenshot of your app later!)*
-
 ## ✨ Features
 
 * **Overview & Insights:** Visualize financial data with dynamic charts (Balance Area Chart, Spend Analysis Pie Chart, and Category Trend Stacked Bar Chart).
